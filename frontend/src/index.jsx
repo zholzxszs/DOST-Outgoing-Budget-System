@@ -1,13 +1,16 @@
-import './Styles/index.css'
-import Header from './header.jsx'
-import Login from './login.jsx'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Login from './login.jsx';
+import Dashboard from './dashboard.jsx';
 
-function index() {
-    return (
-        <>
-            <Login/>
-        </>
-    )
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default index;
+export default App;
