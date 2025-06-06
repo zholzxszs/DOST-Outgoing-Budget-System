@@ -5,13 +5,13 @@ function Login() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
-  const navigate = useNavigate(); // ✅ initialize
+  const navigate = useNavigate(); 
 
   const handleSubmit = () => {
     console.log('Login attempt:', { username, password });
 
     // Simulate successful login
-    navigate('/dashboard'); // ✅ redirect to Dashboard route
+    navigate('/dashboard'); 
   };
 
   return (
