@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import dashboard from '/dashboard.jsx'; 
 
 function Login() {
   const [username, setUsername] = useState('');
