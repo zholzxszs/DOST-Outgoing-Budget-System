@@ -14,8 +14,10 @@ function Sidebar() {
           to="/dashboard"
           className="flex items-center gap-3 p-2 hover:bg-sky-600 rounded"
         >
-          <div className="w-5 h-5 bg-white rounded-sm" />
-          <span className="text-base">Dashboard</span>
+          <div className='flex justify-center'>
+            <img src="/dashboardIcon.svg" alt="Dashboard Icon" />
+            <span className="text-base">Dashboard</span>
+          </div>
         </Link>
 
         <Link
