@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // ✅ import navigation hook
+import { useNavigate } from 'react-router-dom'; 
 
 function Login() {
   const [username, setUsername] = useState('');

@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Login from './login.jsx';
-import Dashboard from './dashboard.jsx';
+import Login from './Components/login.jsx';
+import Dashboard from './Components/dashboard.jsx';
 
-function App() {
+function Index() {
   return (
     <Router>
       <Routes>
@@ -13,4 +13,4 @@ function App() {
   );
 }
 
-export default App;
+export default Index;
