@@ -34,7 +34,7 @@ function OverlayIncoming({ onClose }) {
       >
         {/* Close Button */}
         <button 
-          className="absolute top-4 right-4 text-2xl text-black/50 hover:text-black/70 transition-colors"
+          className="absolute top-4 right-4 text-2xl text-black/50 hover:text-black/70 transition-colors cursor-pointer"
           onClick={onClose}
         >
           ×
@@ -110,7 +110,7 @@ function OverlayIncoming({ onClose }) {
 
         {/* Submit Button */}
         <div className="flex justify-end pt-2">
-          <button className="bg-sky-700/95 hover:bg-sky-800 text-white text-sm font-medium rounded-2xl px-6 py-2 transition-colors">
+          <button className="bg-sky-700/95 cursor-pointer hover:bg-sky-800 text-white text-sm font-medium rounded-2xl px-6 py-2 transition-colors">
             Submit
           </button>
         </div>
