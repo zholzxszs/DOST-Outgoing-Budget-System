@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import OverlayIncoming from './OverlayIncoming';
+import OverlayIncoming from './overlayIncoming.jsx';
 
 function Incoming() {
   const [searchTerm, setSearchTerm] = useState("");
