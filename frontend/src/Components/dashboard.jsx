@@ -17,7 +17,7 @@ function Dashboard() {
 
         {/* Main Content */}
         <main className="flex-1 p-6 overflow-auto">
-          <h2 className="text-2xl font-semibold">Welcome to the Dashboard</h2>
+          <h2 className="text-2xl font-bold">Welcome to the Dashboard</h2>
         </main>
       </div>
     </div>
