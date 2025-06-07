@@ -44,7 +44,7 @@ function OverlayIncoming({ onClose }) {
         <h2 className="text-xl font-bold text-sky-700/95 text-center">Incoming Record</h2>
 
         {/* DTS No. and Time - Flex Row */}
-        <div className="flex flex-wrap gap-4 mt-1">
+        <div className="flex flex-wrap gap-4 mt-4">
           {/* DTS No. */}
           <div className="flex-1 min-w-[200px] mb-4 relative">
             <label className="absolute -top-2 left-5 bg-white px-1 text-sky-700 text-xs font-bold z-10">
