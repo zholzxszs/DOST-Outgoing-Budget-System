@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import Header from './header.jsx';  
 import Sidebar from './sidebar.jsx'; 
-import Incoming from './incomingDocuments.jsx'
+import IncomingDocs from './incomingDocuments.jsx'
 
-function Dashboard() {
+function Incoming() {
   return (
     <div className="h-screen bg-gray-100 flex flex-col">
       {/* Fixed Header */}
@@ -19,11 +19,11 @@ function Dashboard() {
         {/* Main Content */}
         <main className="flex-1 p-6 overflow-auto">
           <h2 className="text-2xl font-bold">Incoming Documents</h2>
-          <Incoming />
+          <IncomingDocs />
         </main>
       </div>
     </div>
   );
 }
 
-export default Dashboard;
+export default Incoming;
